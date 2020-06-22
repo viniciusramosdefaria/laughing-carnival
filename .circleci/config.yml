@@ -9,7 +9,7 @@ references:
 
   environment: &ENVIRONMENT
     TERRAFORM_ENV : "ritchie"
-    TERRAFORM_VERSION: "0.12.26"
+    TERRAFORM_VERSION: "0.12.13"
 
 
   filters: &FILTERS_DELIVERY
