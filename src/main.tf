@@ -33,7 +33,7 @@ variable "customer_name" {
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  version = "~> v2.0"
+  version = "2.21.0"
 
   name = var.vpc_name
   cidr = var.vpc_cidr
