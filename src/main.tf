@@ -3,13 +3,13 @@ variable "region" {
 }
 provider "aws" {
   region  = var.region
-  version = "~> 2.8"
+  version = "2.57.0"
 }
 
 terraform {
   required_version = "0.12.13"
   required_providers {
-    aws        = "~> 2.8"
+    aws        = "2.57.0"
   }
 
   backend "s3" {
@@ -33,7 +33,7 @@ variable "customer_name" {
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  version = "2.21.0"
+  version = "~> v2.0"
 
   name = var.vpc_name
   cidr = var.vpc_cidr
