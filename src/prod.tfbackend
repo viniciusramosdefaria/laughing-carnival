@@ -1,4 +1,4 @@
 
 region = "us-east-1"
-bucket = "test-sandokan"
+bucket = "test-terraform-1l23jlk123j"
 key    = "terraform.tfstate"
